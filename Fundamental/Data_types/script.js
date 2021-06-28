@@ -10,3 +10,8 @@ console.log(typeof 'Majid');
 
 javacriptIsFun = 'YES';
 console.log(javacriptIsFun);
+
+// Undefined 
+let year;
+console.log(year);
+console.log(typeof year);
