@@ -5,3 +5,5 @@ console.log(Number(inputYear) + 18);
 console.log(Number('Majid')); // impossible to convert
 console.log(typeof NaN);
 console.log(typeof Number('Majid'));
+
+console.log(String(23), 23);
