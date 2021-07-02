@@ -33,3 +33,18 @@ if (dolphinsAverage > koalasAverage) {
     console.log("Dolphine's score is equal to Koala's score");
 
 }
+
+//Bonus1
+
+dolphinsAverage = (97+112+101)/3;
+koalasAverage = (109+95+123)/3;
+console.log(`dolphinsAverage is ${dolphinsAverage}, and koalasAverage is ${koalasAverage}`); 
+
+if ((dolphinsAverage > koalasAverage) &&  (dolphinsAverage >=100)) {
+    console.log("Dolphine's team is winner");
+} else if ((dolphinsAverage < koalasAverage) &&  (koalasAverage >=100)) {
+    console.log("Koala's team is winner");
+
+} else {
+    console.log("There is no a winner team");
+}
