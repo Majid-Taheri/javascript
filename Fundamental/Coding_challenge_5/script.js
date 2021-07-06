@@ -28,7 +28,17 @@ GOOD LUCK 😀
 
 const calcAverage = (scoreOne, scoreTwo, scoreThree) => (scoreOne+scoreTwo+scoreThree)/3;
 
-let dolphinsAverage = calcAverage(44, 23, 71);
-let koalasAverage = calcAverage(65,54,49);
+let dolphinsAverage = calcAverage(85, 54, 41);
+let koalasAverage = calcAverage(23, 34, 27);
 console.log (`Kolas avg is ${koalasAverage}`);
 console.log(`Dolphine avg is ${dolphinsAverage}`);
+
+checkWinner(dolphinsAverage,koalasAverage);
+
+function checkWinner (dolphinsAverage, koalasAverage) {
+    if (dolphinsAverage >= 2*koalasAverage) {
+        console.log(`Dophins win ${dolphinsAverage} vs. ${koalasAverage}`);
+    }else if (koalasAverage >= 2*dolphinsAverage) {
+        console.log(`Koalas win ${koalasAverage} vs. ${dolphinsAverage}`);
+    }
+}
