@@ -40,5 +40,7 @@ function checkWinner (dolphinsAverage, koalasAverage) {
         console.log(`Dophins win ${dolphinsAverage} vs. ${koalasAverage}`);
     }else if (koalasAverage >= 2*dolphinsAverage) {
         console.log(`Koalas win ${koalasAverage} vs. ${dolphinsAverage}`);
+    } else {
+        console.log(`No team wins...`);
     }
 }
