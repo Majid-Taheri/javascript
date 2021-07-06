@@ -2,6 +2,9 @@
 const friends = ['Michael', 'Steven', 'Peter'];
 
 // Add elements
-friends.push('Jay');
+const newLength = friends.push('Jay');
+console.log(friends);
+console.log(newLength);
 
+friends.unshift('John');
 console.log(friends);
