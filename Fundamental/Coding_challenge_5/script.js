@@ -28,8 +28,8 @@ GOOD LUCK 😀
 
 const calcAverage = (scoreOne, scoreTwo, scoreThree) => (scoreOne+scoreTwo+scoreThree)/3;
 
-let dolphinsAverage = calcAverage(85, 54, 41);
-let koalasAverage = calcAverage(23, 34, 27);
+const dolphinsAverage = calcAverage(85, 54, 41);
+const koalasAverage = calcAverage(23, 34, 27);
 console.log (`Kolas avg is ${koalasAverage}`);
 console.log(`Dolphine avg is ${dolphinsAverage}`);
 
