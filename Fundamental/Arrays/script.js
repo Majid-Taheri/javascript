@@ -6,3 +6,6 @@ const friend1 = 'Michael';
 const friends = ['Michael', 'Steven', 'Peter'];
 console.log(friends);
 
+const y = new Array(1991, 1984, 2008, 2020);
+
+console.log(y);
