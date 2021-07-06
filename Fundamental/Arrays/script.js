@@ -16,4 +16,14 @@ console.log(friends[2]);
 console.log(friends.length);
 console.log(friends[friends.length - 1]);
 
+//mutate array
+friends[2] = 'Jay';
+console.log(friends);
+// friends = ['Bob', 'Alice'] //we cannot do this it's illegal
+
+const firstName = 'Majid';
+const majid = [firstName, 'Schmedtmann', 2037 - 1989, 'engineer', friends];
+console.log(majid);
+console.log(majid.length);
+
 
