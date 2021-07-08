@@ -24,3 +24,7 @@ if (majid[interestedIn]) {
 } else {
     console.log('Wrong request! Choose between firstName, lastName, age, job, and friends');
 }
+
+majid.location = 'USA';
+majid['twitter'] = '@??';
+console.log(majid);
