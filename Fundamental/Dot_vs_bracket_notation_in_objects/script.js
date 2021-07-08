@@ -28,3 +28,8 @@ if (majid[interestedIn]) {
 majid.location = 'USA';
 majid['twitter'] = '@??';
 console.log(majid);
+
+// Challenge
+// "Majid has 3 friends, and his best friend is called Peter
+
+console.log(`${majid['firstName']} has ${majid.friends.length} friends and his best friend is called ${majid.friends[1]}`)
