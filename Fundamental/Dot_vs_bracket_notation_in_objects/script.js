@@ -11,3 +11,6 @@ const majid = {
   console.log(majid.lastName);
   console.log(majid['lastName']);
   
+  const nameKey = 'Name';
+  console.log(majid['first' + nameKey]);
+  console.log(majid['last' + nameKey]);
