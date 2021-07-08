@@ -14,4 +14,5 @@ const majid = {
   };
 
 
-console.log(majid.calcAge(1987));
+console.log(majid.calcAge(1989));
+console.log(majid['calcAge'](1987));
