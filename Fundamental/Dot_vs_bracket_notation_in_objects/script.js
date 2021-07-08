@@ -18,4 +18,4 @@ const majid = {
 
 const interestedIn = prompt('What do you want to know about Majid? Choose between firstName, lastName, age, job, and friends');
 
-console.log(interestedIn);
+console.log(majid[interestedIn]);
