@@ -11,9 +11,13 @@ const majid = {
     //     return 2037 - birthYear ;
     // },
 
+    // calcAge: function () {
+    //     // console.log(this);
+    //     return 2037 - this.birthYear;
+    // },
     calcAge: function () {
-        console.log(this);
-        return 2037 - this.birthYear;
+        this.age = 2037 - this.birthYear;
+        return this.age;
     }
   };
 
@@ -22,4 +26,4 @@ const majid = {
 // console.log(majid['calcAge'](1981));
 
 console.log(majid.calcAge());
-console.log(majid['calcAge']());
+// console.log(majid['calcAge']());
