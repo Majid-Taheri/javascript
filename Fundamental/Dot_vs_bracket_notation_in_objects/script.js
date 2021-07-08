@@ -18,4 +18,9 @@ const majid = {
 
 const interestedIn = prompt('What do you want to know about Majid? Choose between firstName, lastName, age, job, and friends');
 
-console.log(majid[interestedIn]);
+
+if (majid[interestedIn]) {
+    console.log(majid[interestedIn]);
+} else {
+    console.log('Wrong request! Choose between firstName, lastName, age, job, and friends');
+}
