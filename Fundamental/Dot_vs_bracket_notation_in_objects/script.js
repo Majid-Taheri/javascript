@@ -9,3 +9,5 @@ const majid = {
   console.log(majid);
   
   console.log(majid.lastName);
+  console.log(majid['lastName']);
+  
