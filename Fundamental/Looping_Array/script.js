@@ -6,7 +6,10 @@ const majidArray = [
     ['Michael', 'Peter', 'Steven']
 ];
 
+const types =[];
 for (let i=0; i <= majidArray.length; i++) {
     console.log(majidArray[i], typeof majidArray[i]);
+    types.push(typeof majidArray[i]);
 }
-  
+
+console.log(types);
