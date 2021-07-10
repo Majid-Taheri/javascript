@@ -13,5 +13,5 @@
 
 
 for (let counter =1; counter <=30; counter++ ) {
-    console.log(`Lifting weights counter ${counter}`);
+    console.log(`Lifting weights counter ${counter} 🏋️`);
 }
