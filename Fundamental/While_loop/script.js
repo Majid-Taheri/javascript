@@ -13,3 +13,7 @@ while (rep <= 10) {
 
 let dice = Math.random() ;
 console.log(dice);
+
+dice = Math.trunc(Math.random() * 6) +1;
+
+console.log(dice);
