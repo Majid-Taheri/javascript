@@ -8,3 +8,8 @@ while (rep <= 10) {
     console.log(`Lifting weights repetion ${rep} 🏋️`);
     rep++;
 }
+
+//Role a dice and keep running the dice untile we have the dice
+
+let dice = Math.random() ;
+console.log(dice);
