@@ -17,3 +17,7 @@ for (let exercise = 1 ; exercise <= 4; exercise++){
         console.log(`Exercise ${exercise}: Lifting weight repetition ${repeat} 🏋️‍♀️`);
     }
 }
+
+for (i in majid) {
+    console.error(`majid ${i}`);
+}
