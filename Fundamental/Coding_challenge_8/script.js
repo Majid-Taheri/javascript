@@ -45,3 +45,13 @@ console.log(total)
 
 console.log(bills,tips,total)
 
+console.log(calcAverage(total));
+
+function calcAverage (arr){
+    let sum = 0;
+    for (i in arr) {
+        sum += arr[i];
+    }
+    return sum/(arr.length);
+}
+
