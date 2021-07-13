@@ -32,7 +32,7 @@ function calcTip (bill) {
 const bills = [22, 295, 176, 440, 37, 105, 10, 1100, 86, 52];
 
 for (bill in bills) {
-    tip = calcTip(bills[bill]);
+    const tip = calcTip(bills[bill]);
     tips.push(tip);
     total.push(tip + bills[bill]);
 }
