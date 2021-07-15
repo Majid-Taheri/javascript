@@ -9,4 +9,4 @@ const birthYear = 1991;
 
 // do not use var because it's just legacy
 var job = 'programmer';
-job = 'teachser';
+job = 'teacher';
