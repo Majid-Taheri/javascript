@@ -46,4 +46,8 @@ for (item in temperatures) {
     }
 }
 
-console.log(min)
+console.log(min);
+
+const amplitude = max - min;
+
+console.log(min, max, amplitude);
