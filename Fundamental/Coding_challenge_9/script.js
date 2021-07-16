@@ -15,3 +15,24 @@ for (temps in temperatures) {
 }
 
 console.log(`temperature is ${temperatures}`);
+
+
+let max = 0;
+
+for (let item =0 ; item < temperatures.length; item++){
+    if (temperatures[item] > max) {
+        max = temperatures[item];
+    }
+}
+
+console.log(max)
+
+max = 0;
+
+for ( item in temperatures) {
+    if (temperatures[item] > max) {
+        max = temperatures[item];
+    }
+}
+
+console.log(max);
