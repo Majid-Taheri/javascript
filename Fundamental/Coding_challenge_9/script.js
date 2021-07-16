@@ -71,3 +71,21 @@ const calcTempAmplitude = function (temper) {
   };
   const amplitudes = calcTempAmplitude(temperatures);
   console.log(amplitudes);
+
+
+// PROBLEM 2:
+// Function should now receive 2 arrays of temps
+
+// 1) Understanding the problem
+// - With 2 arrays, should we implement functionality twice? NO! Just merge two arrays
+
+// 2) Breaking up into sub-problems
+// - Merge 2 arrays
+
+const xx = [2, 4, 41];
+const yy = [222, 3333, 111];
+const zz= xx + yy;
+console.log(zz)
+console.log(xx.concat(yy));
+
+
