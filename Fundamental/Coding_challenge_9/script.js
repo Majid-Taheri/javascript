@@ -36,3 +36,14 @@ for ( item in temperatures) {
 }
 
 console.log(max);
+
+
+let min = max;
+
+for (item in temperatures) {
+    if (min > temperatures[item]) {
+        min = temperatures[item];
+    }
+}
+
+console.log(min)
