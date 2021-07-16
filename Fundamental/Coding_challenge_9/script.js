@@ -7,7 +7,7 @@ const temperatures = [3, -2, -6, -1, 'error', 9, 13, 17, 15, 14, 9, 5];
 
 console.log(`temperature is ${temperatures}`);
 
-for (temps in temperatures) {
+for (let temps in temperatures) {
     // console.error(temps);
     if (temperatures[temps] === 'error') {
         console.log(temps);
@@ -30,7 +30,7 @@ console.log(max)
 
 max = 0;
 
-for ( item in temperatures) {
+for (let item in temperatures) {
     if (temperatures[item] > max) {
         max = temperatures[item];
     }
@@ -41,7 +41,7 @@ console.log(max);
 
 let min = max;
 
-for (item in temperatures) {
+for (let item in temperatures) {
     if (min > temperatures[item]) {
         min = temperatures[item];
     }
@@ -52,3 +52,22 @@ console.log(min);
 const amplitude = max - min;
 
 console.log(min, max, amplitude);
+
+
+///// 
+const calcTempAmplitude = function (temper) {
+    let max = temper[0];
+    let min = temper[0];
+  
+    for (let i = 0; i < temper.length; i++) {
+      const curTemp = temper[i];
+      if (typeof curTemp !== 'number') continue;
+  
+      if (curTemp > max) max = curTemp;
+      if (curTemp < min) min = curTemp;
+    }
+    console.log(max, min);
+    return max - min;
+  };
+  const amplitudes = calcTempAmplitude(temperatures);
+  console.log(amplitudes);
