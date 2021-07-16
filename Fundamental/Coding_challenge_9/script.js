@@ -4,3 +4,15 @@
 const temperatures = [3, -2, -6, -1, 'error', 9, 13, 17, 15, 14, 9, 5];
 
 
+console.log(`temperature is ${temperatures}`);
+
+const temperatures_without_error = []
+for (temps in temperatures) {
+    // console.error(temps);
+    if (temperatures[temps] === 'error') {
+        console.log(temps);
+        temperatures.splice(temps , 1);
+    }
+}
+
+console.log(`temperature is ${temperatures}`);
