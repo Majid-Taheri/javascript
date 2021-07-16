@@ -82,10 +82,27 @@ const calcTempAmplitude = function (temper) {
 // 2) Breaking up into sub-problems
 // - Merge 2 arrays
 
-const xx = [2, 4, 41];
-const yy = [222, 3333, 111];
-const zz= xx + yy;
-console.log(zz)
-console.log(xx.concat(yy));
+// const xx = [2, 4, 41];
+// const yy = [222, 3333, 111];
+// const zz= xx + yy;
+// console.log(zz)
+// console.log(xx.concat(yy));
 
 
+const calcTempAmplitudes = function (array1, array2) {
+    const temper = array1.concat(array2);
+    let max = temper[0];
+    let min = temper[0];
+  
+    for (let i = 0; i < temper.length; i++) {
+      const curTemp = temper[i];
+      if (typeof curTemp !== 'number') continue;
+  
+      if (curTemp > max) max = curTemp;
+      if (curTemp < min) min = curTemp;
+    }
+    console.log(max, min);
+    return max - min;
+  };
+  const amplitudess = calcTempAmplitudes([22, 10 ,9], [11,212 ,'error']);
+  console.log(amplitudess);
